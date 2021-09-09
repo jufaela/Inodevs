@@ -1,49 +1,84 @@
 * {
-    text-align: center;
-    margin:0;
-    font-family: Space, Helvetica, sans-serif, Mono, Arial;
-    height: 96.3vh;
-    font-size: 10px;
-  }
+  text-align: center;
+  margin:0;
+  font-family: Space, Helvetica, sans-serif, Mono, Arial;
+  height: 95.9vh;
+  font-size: 10px;
+}
 
-  .container {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100vw;
-  }
+.container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100vw;
+}
 
-  .blocos {
-    float: left;
-  }
+.blocos {
+  float: left;
+}
 
-  .left {
-    background: #002339;
-    color: #AEB3C3;
-    padding: 15px;
-    width: 70vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 5em;
-    text-align: justify;
-  }
-  
-  .right {
-    background: #ddd;
-    padding: 15px;
-    position: right;
-    width: 25vw;
-  }
+.left {
+  background: #002339;
+  color: #AEB3C3;
+  padding: 15px;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  text-align: justify;
+}
 
-  .referencia {
-    position: relative;
-    bottom: 0;
-    max-height: 2vh;
+.right {
+  position: fixed;
+  margin-top: 35vh;
+  width: 40vw;
+  height: 30vh;
+  background: #fff;
+  justify-content: center;
+  color: black;
+}
+
+.referencia {
+  position: relative;
+  bottom: 0;
+  max-height: 2vh;
 }
 
 #referencia,h2 {
-    height: fit-content;
-    width: fit-content;
-    margin-left: 10px;
-    color: #fff;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#form, input {
+  height: 3%;
+  outline: none;
+  margin: 10px;
+  background-color: #C4C4C4;
+  border-radius: 50px;
+  border: none;
+  text-align: left;
+  height: 4vh;
+  width: 16vw;
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+#form, label {
+  font-size: 2em;
+  padding-right: 12vw;
+}
+#botao {
+  background-color: #E5C03B;
+  font-size: 2em;
+  height: 6vh;
+  text-align: center;
+  padding: 0;
+  width: 13vw;
+}
+#botao:hover {
+  cursor: pointer;
+  background-color: darkgoldenrod;
 }
